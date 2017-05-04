@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pens.rentcar.Detail2Activity"
+    tools:showIn="@layout/activity_detail2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="16dp"
+            android:background="@color/cardview_dark_background"
+            android:elevation="4dp" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relatif1"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:background="#fff"
+                android:layout_marginTop="5dp" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Nama Mobil"
+                    android:id="@+id/text1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text2"
+                    android:text="Type Mobil"
+                    android:layout_below="@+id/text1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text3"
+                    android:text="Merk Mobil"
+                    android:layout_below="@+id/text2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text4"
+                    android:text="Tahun Pembuatan"
+                    android:layout_below="@+id/text3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text5"
+                    android:text="Bahan bakar"
+                    android:layout_below="@+id/text4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text6"
+                    android:text="Harga sewa"
+                    android:layout_below="@+id/text5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/text7"
+                    android:text="Status : -"
+                    android:layout_below="@+id/text6"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="16dp"
+            android:background="@color/cardview_dark_background"
+            android:elevation="4dp" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relatif2"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:background="#fff"
+                android:layout_marginTop="5dp" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Nama Mobil"
+                    android:id="@+id/tex1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tex2"
+                    android:text="Type Mobil"
+                    android:layout_below="@+id/tex1"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="16dp"
+            android:background="@color/cardview_dark_background"
+            android:elevation="4dp" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relatif3"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:background="#fff"
+                android:layout_marginTop="5dp" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Nama Mobil"
+                    android:id="@+id/texk1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/texk2"
+                    android:text="Type Mobil"
+                    android:layout_below="@+id/texk1"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="16dp"
+            android:background="@color/cardview_dark_background"
+            android:elevation="4dp" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relatif4"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:background="#fff"
+                android:layout_marginTop="5dp" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Nama Mobil"
+              />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="16dp"
+            android:background="@color/cardview_dark_background"
+            android:elevation="4dp" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/relatif5"
+                android:elevation="4dp"
+                android:padding="16dp"
+                android:background="#fff"
+                android:layout_marginTop="5dp" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Nama Mobil"
+                    android:id="@+id/tes1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tes2"
+                    android:text="Type Mobil"
+                    android:layout_below="@+id/tes1"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

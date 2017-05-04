@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_form_sewa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context="com.example.pens.rentcar.FormSewaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="clip_vertical"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imageView"
+                app:srcCompat="@drawable/icon"
+                android:maxWidth="20dp"
+                android:maxHeight="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="clip_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                app:srcCompat="@drawable/user"
+                android:maxWidth="10dp"
+                android:maxHeight="10dp"
+                android:layout_gravity="center"
+                android:layout_width="29dp"
+                android:layout_height="19dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="22dp"
+                android:inputType="textPersonName"
+                android:hint="Nama lengkap"
+                android:ems="10"
+                 />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="clip_horizontal"
+            android:orientation="horizontal">
+            <ImageView
+                app:srcCompat="@drawable/idcardblack"
+                android:maxWidth="10dp"
+                android:maxHeight="10dp"
+                android:layout_gravity="center"
+                android:layout_width="32dp"
+                android:layout_height="22dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="20dp"
+                android:inputType="textPersonName"
+                android:hint="no ktp"
+                android:ems="10"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="clip_horizontal"
+            android:orientation="horizontal">
+            <ImageView
+                app:srcCompat="@drawable/calendarblack"
+                android:maxWidth="10dp"
+                android:maxHeight="10dp"
+                android:layout_gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="20dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fromdate"
+                android:layout_marginLeft="20dp"
+                android:inputType="textPersonName"
+                android:hint="Tanggal Sewa"
+                android:ems="10"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="clip_horizontal"
+            android:orientation="horizontal">
+            <ImageView
+                app:srcCompat="@drawable/calendarblack"
+                android:maxWidth="10dp"
+                android:maxHeight="10dp"
+                android:layout_gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="20dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/todate"
+                android:inputType="textPersonName"
+                android:hint="Tanggal Kembali"
+                android:ems="10"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="clip_horizontal"
+            android:orientation="horizontal">
+            <ImageView
+                app:srcCompat="@drawable/clockblack"
+                android:maxWidth="10dp"
+                android:maxHeight="10dp"
+                android:layout_gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="20dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time"
+                android:layout_marginLeft="20dp"
+                android:inputType="textPersonName"
+                android:hint="Jam Ambil"
+                android:ems="10"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="clip_horizontal"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Total Biaya"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:inputType="textPersonName"
+                android:hint="Rp.000000"
+                android:ems="8"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="200dp"
+                android:id="@+id/sewa"
+                android:layout_height="40dp"
+                android:text="sewa"
+                android:textSize="9pt"
+                android:textColor="#fff"
+                android:background="#0D47A1"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
